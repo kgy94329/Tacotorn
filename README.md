@@ -21,3 +21,17 @@ train.py : 타코트론 학습의 엔트리 포인트가 되는 모듈입니다.
            학습시에는 500steps마다 weight값들이 저장되고, 이 저장된 값들은 save point역할을 합니다.  
 
 test.py : 학습이 완료된 타코트론에 텍스트를 입력하여 음성 파일을 생성하는 모듈입니다. 
+
+# 데이터셋  
+* 영어 음성 데이터셋  
+  LJSpeech-1.1  
+* 한국어 음성 데이터셋  
+  KSS
+* 일본어 음성 데이터셋  
+  JSS
+
+# 참조  
+https://github.com/Kyubyong/tacotron  
+https://github.com/keithito/tacotron  
+https://github.com/chldkato/Tacotron-Korean-Tensorflow2  
+https://github.com/NVIDIA/tacotron2
